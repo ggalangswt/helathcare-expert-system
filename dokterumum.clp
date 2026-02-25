@@ -194,7 +194,8 @@
   (declare (salience -10))
   (not (diagnose ?))
   =>
-  (assert (diagnose "Gejala tidak cukup spesifik. Disarankan konsultasi medis.")))
+  (assert (diagnose "Gejala tidak cukup spesifik."))
+  (assert (tips "Disarankan segera melakukan konsultasi medis ke dokter terdekat.")))
 
 ;;;********************************
 ;;;* STARTUP AND CONCLUSION RULES *
